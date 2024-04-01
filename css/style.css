@@ -28,6 +28,7 @@ p{
 
 /* Efeito Parallax*/
 .caixa1, .caixa2, .caixa3, .caixa4{
+    position: relative;
     height: 100%;
     opacity: 0.8;
     background-repeat: no-repeat;
@@ -51,4 +52,22 @@ p{
 .caixa4{
     background-image: url(../imagens/imagem4.jpg);
 }
+
+.conteudo-titulo{
+    position: absolute;
+    left: 0;
+    top: 45%; 
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
 
